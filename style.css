@@ -1,0 +1,29 @@
+.win{
+    z-index: 1;
+    width:0;
+    height: 100%;
+    position:fixed;
+    top:0;
+    left: 0;
+    background-color:red;
+    transition: all 0.5s ;
+    overflow: hidden;
+
+}
+
+.btn{
+    padding: 15px;
+    z-index: 1;
+}
+
+.disp{
+    display: none;
+}
+.modal{
+    position: relative;
+    height:100vh;
+}
+.win ul li a{
+    margin-bottom: 15px;
+    list-style-type: none;
+}
